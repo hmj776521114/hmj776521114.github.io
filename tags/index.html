@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     
-    <title>Java小白的博客</title>
+    <title>标签 | Java小白的博客</title>
     <meta name="renderer" content="webkit">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -15,11 +15,11 @@
     <meta name="description" content="博主本人是刚入坑的Java小白，所以在博客内容上难免会有一些瑕疵，欢迎大家指出并指教。">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Java小白的博客">
+    <meta name="twitter:title" content="标签 | Java小白的博客">
     <meta name="twitter:description" content="博主本人是刚入坑的Java小白，所以在博客内容上难免会有一些瑕疵，欢迎大家指出并指教。">
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Java小白的博客">
+    <meta property="og:title" content="标签 | Java小白的博客">
     <meta property="og:description" content="博主本人是刚入坑的Java小白，所以在博客内容上难免会有一些瑕疵，欢迎大家指出并指教。">
 
     
@@ -37,7 +37,7 @@
     <link rel="alternate" type="application/rss+xml" title="Java小白的博客" href="/atom.xml">
     
 
-    <link rel="canonical" href="http://yoursite.com/2019/07/19/Java使用socket连接Cent os云主机出现Connect Refused错误及解决方法/"/>
+    <link rel="canonical" href="http://yoursite.com/tags/index.html"/>
 
                  
 </head>
@@ -145,65 +145,15 @@
             <article class="post-container post-container--single">
 
   <header class="post-header">
-    <div class="post-meta">
-      <time datetime="2019-07-19T05:49:25.759Z" class="post-list__meta--date date">2019-07-19</time> &#8226; <span class="post-meta__tags tags">于  </span>
-      <span class="page-pv">
-       Read <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
-      </span> 
-   
-    </div>
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">标签</h1>
   </header>
 
   <section class="post">
-    <p>​    Java使用socket连接Cent os云主机出现Connect Refused错误及解决方法</p>
-<p>​    前几天搞了个云主机，今天突发奇想想用自己的电脑与云主机之间利用Socket进行通信，所以就小试了一下。结果在自己电脑上用127.0.0.1进行测试的时候可以在服务器端收到客户端发送的内容，将ip改为自己云主机的ip就不行了，说明代码是没有问题的，问题出在云主机上，报错信息如下：![image-20190719132745935](/Users/huangmingjun/Library/Application Support/typora-user-images/image-20190719132745935.png)</p>
-<p>上网查了下，给出如下解决方案：</p>
-<p>步骤1.在云主机端开放你要访问的端口,在终端执行以下命令，将8888替换为你想要开放的端口</p>
-<p><code>firewall-cmd --zone=public --add-port=8888/tcp --permanent</code></p>
-<p>命令含义：</p>
-<p>–zone #作用域</p>
-<p>–add-port=80/tcp #添加端口，格式为：端口/通讯协议</p>
-<p>–permanent #永久生效，没有此参数重启后失效</p>
-<p>步骤2.重启防火墙</p>
-<p><code>firewall-cmd --reload</code></p>
-<p>步骤3.重新在云主机上运行服务器端程序，然后执行客户端程序，成功运行，没有报错。![image-20190719134358537](/Users/huangmingjun/Library/Application Support/typora-user-images/image-20190719134358537.png)</p>
-<p>若按以上方法执行后问题仍未解决的话，也可以简单粗暴直接关闭防火墙，但是慎重行之!  存在一定的安全隐患。</p>
-<p>关闭防火墙命令如下:</p>
-<p><code>systemctl stop firewalld.service</code>  </p>
-<p>想重新开启防火墙就执行以下命令</p>
-<p><code>systemctl start firewalld.service</code> </p>
-<p>参考博客：<a href="https://blog.csdn.net/jack85986370/article/details/51169203" target="_blank" rel="noopener">https://blog.csdn.net/jack85986370/article/details/51169203</a></p>
-
+    
   </section>
-
 </article>
 
-<section class="read-more">
-           
-    
-               
-            <div class="read-more-item">
-                <span class="read-more-item-dim">Newer Post</span>
-                <h2 class="post-list__post-title post-title"><a href="/2019/07/19/hello-world/" title="Hello World">Hello World</a></h2>
-                <p class="excerpt">
-                
-                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-                &hellip;
-                </p>
-                <div class="post-list__meta"><time datetime="2019-07-19T10:54:27.637Z" class="post-list__meta--date date">2019-07-19</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2019/07/19/hello-world/">查看全部</a></div>
-                           
-            </div>
-        
-        
-        
-     
-   
-   
-  
-</section>
 
-  
 
             <footer class="footer">
     <span class="footer__copyright">
