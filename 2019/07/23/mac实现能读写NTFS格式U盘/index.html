@@ -37,7 +37,7 @@
     <link rel="alternate" type="application/rss+xml" title="Java小白的博客" href="/atom.xml">
     
 
-    <link rel="canonical" href="http://yoursite.com"/>
+    <link rel="canonical" href="http://yoursite.com/2019/07/23/mac实现能读写NTFS格式U盘/"/>
 
                  
 </head>
@@ -51,7 +51,7 @@
     </span>
 
     
-<header class="panel-cover " style="background-image: url(/images/background-cover.jpg)">
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
@@ -142,78 +142,62 @@
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <div class="main-post-list">
-    
-  <ol class="post-list">
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/07/23/mac实现能读写NTFS格式U盘/" title="link to post.title"></a></h2>
-      <p class="excerpt">
-    
-      ​                                mac实现能读写NTFS格式U盘
-1.打开终端，执行以下命令并输入管理员密码并回车进入一个编辑窗界面
-sudo nano /etc/fstab  
-2.设你的U盘名称为Samsung , 则将以下内容复制粘贴至编辑区内
-​    LABEL=Samsung none ntfs rw,auto,nobrowse
-如下图所示：
-![im
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2019-07-23T08:04:57.686Z" class="post-list__meta--date date">2019-07-23</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2019/07/23/mac实现能读写NTFS格式U盘/">查看全部</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/07/19/hello-world/" title="link to post.title">Hello World</a></h2>
-      <p class="excerpt">
-    
-      Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2019-07-19T10:54:27.637Z" class="post-list__meta--date date">2019-07-19</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2019/07/19/hello-world/">查看全部</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2019/07/19/Java使用socket连接Cent os云主机出现Connect Refused错误及解决方法/" title="link to post.title"></a></h2>
-      <p class="excerpt">
-    
-      ​    Java使用socket连接Cent os云主机出现Connect Refused错误及解决方法
-​    前几天搞了个云主机，今天突发奇想想用自己的电脑与云主机之间利用Socket进行通信，所以就小试了一下。结果在自己电脑上用127.0.0.1进行测试的时候可以在服务器端收到客户端发送的内容，将ip改为自己云主机的ip就不行了，说明代码是没有问题的，问题出在云主机上，报错信息如下：![
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2019-07-19T05:49:25.759Z" class="post-list__meta--date date">2019-07-19</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2019/07/19/Java使用socket连接Cent os云主机出现Connect Refused错误及解决方法/">查看全部</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-  </ol>
+            <article class="post-container post-container--single">
 
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2019-07-23T08:04:57.686Z" class="post-list__meta--date date">2019-07-23</time> &#8226; <span class="post-meta__tags tags">于  </span>
+      <span class="page-pv">
+       Read <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+      </span> 
+   
+    </div>
+    <h1 class="post-title"></h1>
+  </header>
 
- <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
-        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
-        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
-        messageStyle: "none"
-    }); 
+  <section class="post">
+    <p>​                                mac实现能读写NTFS格式U盘</p>
+<p>1.打开终端，执行以下命令并输入管理员密码并回车进入一个编辑窗界面</p>
+<p><code>sudo nano /etc/fstab</code>  </p>
+<p>2.设你的U盘名称为Samsung , 则将以下内容复制粘贴至编辑区内</p>
+<p>​    <code>LABEL=Samsung none ntfs rw,auto,nobrowse</code></p>
+<p>如下图所示：</p>
+<p>![image-20190723155746176](/Users/huangmingjun/Library/Application Support/typora-user-images/image-20190723155746176.png)</p>
+<p>3.按下Ctrl+x , 再按y,然后回车。做到这里已经成功了，只需要将你的U盘拔掉重新插上就可以对其读写了。</p>
+<p>PS: 插上U盘图标在桌面上是看不到的，你可以用终端命令行进行访问进行读写操作：</p>
+<p>  <code>cd /Volumes/Samsung/</code></p>
+<p>如图：</p>
+<p>![image-20190723160244066](/Users/huangmingjun/Library/Application Support/typora-user-images/image-20190723160244066.png)</p>
+
+  </section>
+
+</article>
+
+<section class="read-more">
+           
     
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-</div>
+        
+        
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">Older Post</span>
+                <h2 class="post-list__post-title post-title"><a href="/2019/07/19/hello-world/" title="Hello World">Hello World</a></h2>
+                <p class="excerpt">
+                
+                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2019-07-19T10:54:27.637Z" class="post-list__meta--date date">2019-07-19</time> &#8226; <span class="post-list__meta--tags tags">于 </span><a class="btn-border-small" href="/2019/07/19/hello-world/">查看全部</a></div>
+                       
+            </div>
+        
+     
+   
+   
+  
+</section>
 
+  
 
             <footer class="footer">
     <span class="footer__copyright">
